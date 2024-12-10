@@ -1,0 +1,31 @@
+name: untitled23
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - assets/icons/
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: fonts/CustomFont-Regular.ttf
+        - asset: fonts/CustomFont-Bold.ttf
+          weight: 700
